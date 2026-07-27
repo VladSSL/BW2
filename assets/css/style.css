@@ -243,10 +243,10 @@ ul, ol { padding: 0; list-style: none; }
 .hero { padding-top: clamp(40px, 6vw, 80px); padding-bottom: 0; }
 .hero__grid { align-items: end; }
 .hero__copy { grid-column: span 7; }
-.hero__aside { grid-column: span 5; padding-bottom: 8px; }
+.hero__aside { grid-column: span 5; padding-bottom: 6px; }
 .hero .display { margin-top: 20px; }
-.hero .lead { margin-top: 24px; max-width: 34ch; }
-.hero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+.hero .lead { margin-top: 0; max-width: 34ch; }
+.hero__cta { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 .hero__media {
   margin-top: 48px; background: #F9F9F9; position: relative;
   aspect-ratio: 8 / 3; display: grid; place-items: center; overflow: hidden;
@@ -445,6 +445,7 @@ ul, ol { padding: 0; list-style: none; }
   .cards, .contacts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .hero__copy { grid-column: span 12; }
   .hero__aside { grid-column: span 12; padding-bottom: 0; }
+  .hero .lead { margin-top: 24px; }
   .split__media, .split__copy { grid-column: span 12; }
   .geo__copy, .geo__list { grid-column: span 12; }
   .cta__copy, .cta__form { grid-column: span 12; }
