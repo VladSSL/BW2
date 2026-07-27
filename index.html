@@ -121,9 +121,13 @@
       </div>
 
       <figure class="hero__media" data-reveal data-reveal-delay="200">
-        <img src="https://static.tildacdn.com/tild6265-3332-4262-b534-373733636338/500_.jpg"
-             alt="Расточно-наплавочный станок Механик 500 ВС в полной комплектации с борштангой, суппортами и оснасткой"
-             width="1200" height="600" fetchpriority="high">
+        <picture>
+          <source type="image/webp" media="(max-width: 640px)" srcset="assets/img/hero-900.webp">
+          <source type="image/webp" srcset="assets/img/hero.webp">
+          <img src="assets/img/hero.jpg"
+               alt="Линейка расточно-наплавочных станков Механик с борштангами, суппортами, пультом управления и оснасткой"
+               width="1680" height="630" fetchpriority="high">
+        </picture>
       </figure>
     </div>
   </section>
